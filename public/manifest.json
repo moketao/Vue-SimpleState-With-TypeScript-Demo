@@ -1,6 +1,6 @@
 {
-  "name": "moreui-ts",
-  "short_name": "moreui-ts",
+  "name": "Vue-SimpleState-With-TypeScript-Demo",
+  "short_name": "vue-simple-state-ts",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
