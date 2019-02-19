@@ -10,12 +10,13 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@riophae/vue-treeselect": "0.0.38",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.22",
     "vue-class-component": "^6.0.0",
+    "vue-grid-layout": "^2.3.3",
     "vue-property-decorator": "^7.0.0",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.0",

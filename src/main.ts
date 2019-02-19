@@ -1,13 +1,31 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import store from './store';
 import './registerServiceWorker';
 
 Vue.config.productionTip = false;
-
-new Vue({
+const data = {
+  layersSel: [],
+  layers:
+  [
+    {
+      id: 'a',
+      label: 'a',
+    },
+    {
+      id: 'b',
+      label: 'b',
+    },
+    {
+      id: 'cc',
+      label: 'cc',
+    },
+  ],
+};
+const rootvue = new Vue({
   router,
-  store,
+  data,
   render: (h) => h(App),
-}).$mount('#app');
+});
+Vue.prototype.global = rootvue;
+rootvue.$mount('#app');

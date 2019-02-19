@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>moreui-ts</title>
+    <script>
+    function getRootVue(params) {
+        return __VUE_DEVTOOLS_GLOBAL_HOOK__.Vue.prototype.global;
+    }
+    </script>
   </head>
   <body>
     <noscript>
